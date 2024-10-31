@@ -25,7 +25,7 @@ function addDragAndDropListeners() {
         const plant = document.getElementById(plantId);
         const dropzoneRect = dropzone.getBoundingClientRect();
         const offsetX = e.clientX - dropzoneRect.left;
-        const offsetY = e.clientY - dropzoneRect.top;
+        const offsetY = e.clientY ;
 
         // 드롭된 위치로 이미지 이동
         plant.style.position = 'absolute';

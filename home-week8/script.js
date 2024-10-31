@@ -5,7 +5,6 @@ const quotes = [
     '대한 사람 대한으로 길이 보전하세',
     '남산 위에 저 소나무 철갑을 두른 듯',
 ];
-
 let words = [];
 let wordIndex = 0;
 let startTime = Date.now();
@@ -43,7 +42,6 @@ function initializeGame() {
         attachInputListener(); // 입력 리스너 재활성화
     }
 }
-
 // 게임 완료 처리
 function finishGame(elapsedTime) {
     gameActive = false;

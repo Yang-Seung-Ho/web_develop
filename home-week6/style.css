@@ -104,6 +104,11 @@ body {
     border-radius: 0.5rem;
 }
 
-#plant1 {
-    
+.plant {
+    position: relative;
+    width: 100px; /* 원하는 고정 크기 */
+    height: auto;
+    max-width: 100%; /* 크기 제한 */
+    max-height: 100%; /* 크기 제한 */
+    z-index: 2;
 }
