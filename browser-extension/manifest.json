@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "My Carbon Trigger",
+  "version": "1.0",
+  "description": "Personal Carbon Trigger",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      
+    }
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "*://*.tmrow.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/index.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/plants-people.png",
+        "reset.css",
+        "styles.css",
+        "src/index.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
