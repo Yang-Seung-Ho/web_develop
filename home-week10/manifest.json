@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "host_permissions": ["<all_urls>"],
   "background": {
-  "service_worker": "background.js"
+  "service_worker": "/dist/background.js"
   },
   "action": {
-  "default_popup": "index.html"
+  "default_popup": "./dist/index.html"
   },
   "permissions": ["storage", "activeTab", "scripting"],
   "content_scripts": [
@@ -17,6 +17,7 @@
       "css": ["styles.css"]
     }
   ],
+  
   "web_accessible_resources": [
     {
       "resources": [
