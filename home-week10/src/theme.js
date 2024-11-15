@@ -22,6 +22,7 @@ function updateButtonText(theme) {
 
 // 다크모드와 라이트모드를 전환하는 함수
 function toggleTheme() {
+  
   const currentTheme = document.body.getAttribute('data-theme');
   const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
   document.body.setAttribute('data-theme', newTheme);
@@ -31,3 +32,5 @@ function toggleTheme() {
 
 // 토글 버튼 클릭 이벤트 추가
 toggleButton.addEventListener('click', toggleTheme);
+
+

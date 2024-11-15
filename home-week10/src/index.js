@@ -140,4 +140,6 @@ function setUpUser(apiKey, regionName1, regionName2, regionName3) {
 // Event listeners
 form.addEventListener('submit', (e) => handleSubmit(e));
 clearBtn.addEventListener('click', (e) => reset(e));
+
 init();
+ 

@@ -5,6 +5,7 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
     iconSizes.forEach((size) => {
     imageDataDict[size] = drawIcon(msg.value.color, size);
     });
+    
     chrome.action.setIcon({ imageData: imageDataDict });
     }
 });
