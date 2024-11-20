@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #4CAF50;
+  }
+  
+  #quiz-container {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  .answer-button {
+    background-color: #f1f1f1;
+  }
+  
+  #next-question {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
