@@ -1,5 +1,4 @@
 function loadTexture(path) {
-<<<<<<< Updated upstream
     return new Promise((resolve) => {
       const img = new Image();
       img.src = path;
@@ -52,7 +51,6 @@ function loadTexture(path) {
     }
   }
   
-=======
   return new Promise((resolve, reject) => {
     const img = new Image();
     img.src = path;
